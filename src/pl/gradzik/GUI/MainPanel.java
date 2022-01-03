@@ -14,6 +14,8 @@ public class MainPanel extends JPanel
 {
 
     private JPanel currentPanel;
+
+
     private MainSitePanel mainSitePanel;
     private ClientsListPanel clientsListPanel;
     private CreateNewClientPanel createNewClientPanel;
@@ -130,6 +132,11 @@ public class MainPanel extends JPanel
     public JPanel getCurrentPanel() {
         return currentPanel;
     }
+
+    public MainSitePanel getMainSitePanel() {
+        return mainSitePanel;
+    }
+
 
 }
 

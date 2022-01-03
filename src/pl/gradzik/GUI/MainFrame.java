@@ -213,6 +213,7 @@ public class MainFrame extends JFrame implements ActionListener
                     try {
                         thisFrame.getMainPanel().getHistoryPanel().refresh();
                         thisFrame.getMainPanel().getAtmsDataPanel().refresh();
+                        thisFrame.getMainPanel().getMainSitePanel().refresh();
 
 
                         Thread.sleep(20000); // aktualizauje liste co 20s
